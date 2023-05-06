@@ -60,10 +60,12 @@ aside div {
 }
 
 .aside_boton{
+    font-size: x-small;
     height: 74px;
     width: 64px;
     gap: 5px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -168,6 +170,9 @@ nav div{
 }
 
 #nav_buscar_lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #303030;
     background-color: #222222;
     height: 40px;
@@ -201,46 +206,33 @@ nav div{
 }
 
 
-.boton_nav_usuario {
-    margin-top: -10px;
-}
 
 #nav_usuario{
-    margin-right: 3.3vw;
-    margin-top: 1vw;
-    gap: 0.5rem;
+    margin-right: 25px;
+    gap: 20px;
     }
 
-
-#nav_usuario_subir{
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    background-color: #222222;
-
-}
-
-#nav_usuario_notificaciones{
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    background-color: #222222;
-
-}
-
-#nav_usuario_perfil{
-    border-radius:  50%;
-    height: 45px;
-    width: 45px;
-    background-color: #222222;
-
-}
 
 .img_nav_usuario{
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    }
+}
+
+.a_nav_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.a_nav_usuario:hover{
+    background-color: #272727;
+}
+
+
 
 
 
@@ -295,7 +287,7 @@ nav div{
     /* background-color: darkblue; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 15px 85px 0px 85px;
+    margin: 31px 70px 0px 88px;
 }
 
 
@@ -314,9 +306,9 @@ nav div{
 
 
 .info_display_video{
-    /* background-color: darkgreen; */
     display: flex;
-    gap: 10px;
+    gap: 6px;
+    padding-top: 6px;
     padding-bottom: 35px;
     margin-bottom: 26px;
     cursor: pointer;
@@ -350,17 +342,18 @@ nav div{
 
 /* -----------    Shorts       ----------------------------------------------------------------------------------------- */
 
-#contenedor_display_shorts{
+#contenedor_shorts{
     border-top: #525252 5px solid;
     border-bottom: #525252 5px solid;
-    display: grid;
-    grid-template-columns: span (6fr);
+    display: flex;
+    flex-direction: column;
     margin: 15px 65px 0px 85px;
 }
 
 #img_logo_shorts{
     width: 24px;
     height: 24px;
+
 }
 
 .img_display_shorts{
@@ -369,10 +362,6 @@ nav div{
     border-radius: 6%;
 }
 
-#shorts_contenedor{
-    display: flex;
-    flex-direction: column;
-}
 
 #shorts_logo{
     display: flex;
@@ -388,8 +377,7 @@ nav div{
     padding-top: 0px;
 }
 
-
-#contenedor_videos_shorts{
+#shorts_grid{
     display: grid;
     grid-template-columns: repeat(6,1fr);
 }
@@ -412,11 +400,6 @@ nav div{
     margin-bottom: 20px;
 }
 
-
-
-.columnas_shorts{
-    display: flex;
-}
 
 
 #shorts_showmore{
