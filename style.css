@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    top: 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    background-color: #0f0f0f;
+    
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------     Aside       ----------------------------------------------------------------------------------------- */
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a_aside{
+    font-size: x-small;
+}
+
+
+#aside_menu{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#aside_botones{ 
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.aside_boton{
+    height: 74px;
+    width: 64px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15%;
+}
+
+.aside_boton:hover{
+    background-color: #272727;
+}
+
+
+
+
+
+
+/* Ajuste de Tamaño imagenes */
+
+#img_aside_menu{
+    height: 25px;
+    width: 25px;
+}
+
+
+#img_aside_principal{
+    height: 24px;
+    width: 24px;
+}
+
+#img_aside_shorts{
+    height: 29px;
+    width: 24px;
+}
+
+
+#img_aside_suscripciones{
+    height: 30px;
+    width: 35px;
+}
+
+#img_aside_biblioteca{
+    height: 25px;
+    width: 30px;
+}
+
+#img_aside_mas{
+    height: 30px;
+    width: 30px;
+}
+
+/* Ajuste de Tamaño Imagenes */
+
+
+
+
+
+/* -----------     Aside       ----------------------------------------------------------------------------------------- */
+
+
+
+
+/* -----------    Nav       ----------------------------------------------------------------------------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#img_nav_logo{
+    height: 40px;
+    width: 100px;
+}
+
+#nav_buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+#input_nav_buscar{
+    border: none;
+    width: 540px;
+    height: 40px;
+    border-radius:  3rem 0rem 0rem 3rem ;
+    padding-left: 1rem;
+    background-color: #0f0f0f;
+    font-size: medium;
+    border-left: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    border-top: 1px solid #303030;
+}
+
+#nav_buscar_lupa{
+    border: 1px solid #303030;
+    background-color: #222222;
+    height: 40px;
+    width: 65px;
+    border-radius: 0 3rem 3rem 0;
+}
+
+#img_nav_lupa{
+    height: 37px;
+    width: 37px;
+}
+
+
+
+#nav_buscar_voz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+#img_nav_voz{
+    background-color: #181818;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+#img_nav_voz:hover{
+    background-color: #303030;
+}
+
+
+.boton_nav_usuario {
+    margin-top: -10px;
+}
+
+#nav_usuario{
+    margin-right: 3.3vw;
+    margin-top: 1vw;
+    gap: 0.5rem;
+    }
+
+
+#nav_usuario_subir{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: #222222;
+
+}
+
+#nav_usuario_notificaciones{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: #222222;
+
+}
+
+#nav_usuario_perfil{
+    border-radius:  50%;
+    height: 45px;
+    width: 45px;
+    background-color: #222222;
+
+}
+
+.img_nav_usuario{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    }
+
+
+
+/* -----------    Nav       ----------------------------------------------------------------------------------------- */
+
+
+
+
+/* -----------    tags       ----------------------------------------------------------------------------------------- */
+
+#tags{
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#tag_1{
+    cursor: pointer;
+    border: none;
+    background-color: #f1f1f1;
+    color: #0f0f0f;
+    font-size: medium;
+    height: 35px;
+    border-radius: 0.5rem;
+    padding: 5px 10px ;
+}
+
+#tag_1:hover{   
+    background-color: #ffffff;
+}
+
+.tag{
+    cursor: pointer;
+    border: none;
+    background-color: #272727;
+    font-size: medium;
+    height: 30px;
+    border-radius: 0.5rem;
+    padding: 5px 10px ;
+}
+
+.tag:hover{   
+    background-color: #3f3f3f;
+}
+
+
+#tag_end{
+    cursor: pointer;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    border-radius: 50%;
+    background-color: #0f0f0f;
+}
+
+#tag_end:hover{
+    background-color: #3f3f3f;
+    border-radius: 50%;
+}
+
+
+/* -----------    tags       ----------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* -----------    videos       ----------------------------------------------------------------------------------------- */
+
+
+
+
+#contenedor_display_videos{
+    background-color: rgb(111, 151, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 85px 0px 85px;
+}
+
+
+.display_video{
+    background-color: rgb(0, 59, 13);
+    width: 363px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px blue;
+}
+
+.img_display_video{
+    width: 360px;
+    height: 205px;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+
+.info_display_video{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 35px;
+    margin-bottom: 26px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.img_perfil_video{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.titulo_display_video{
+    padding-top: 5px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.canal_display_video{
+    margin-top: 5px;
+    color: #aaaaaa;
+}
+
+.visitas_display_video{
+    margin-top: 3px;
+    color: #aaaaaa;
+}
+/* -----------    videos       ----------------------------------------------------------------------------------------- */
+
+
+
+/* -----------    Footer       ----------------------------------------------------------------------------------------- */
+
+
+
+footer{
+    background-color: aqua;
+    border: solid 5px red;
+    /* width: 100vw; */
+}
+
+
+
+
+/* -----------    Footer       ----------------------------------------------------------------------------------------- */
