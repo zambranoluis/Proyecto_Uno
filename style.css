@@ -284,7 +284,7 @@ nav div{
 
 
 #contenedor_display_videos{
-    /* background-color: darkblue; */
+    background-color: darkblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 31px 70px 0px 88px;
@@ -378,6 +378,7 @@ nav div{
 }
 
 #shorts_grid{
+    background-color: red;
     display: grid;
     grid-template-columns: repeat(6,1fr);
 }
