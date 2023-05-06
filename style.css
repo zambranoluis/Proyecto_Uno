@@ -250,58 +250,34 @@ nav div{
 
 
 /* -----------    tags       ----------------------------------------------------------------------------------------- */
-
 #tags{
     display: flex;
     padding: 1rem 1rem 1rem 1rem; 
     justify-content: space-evenly;
     align-items: center;
-}
-
-#tag_1{
-    cursor: pointer;
-    border: none;
-    background-color: #f1f1f1;
-    color: #0f0f0f;
-    font-size: medium;
-    height: 35px;
-    border-radius: 0.5rem;
-    padding: 5px 10px ;
-}
-
-#tag_1:hover{   
-    background-color: #ffffff;
-}
-
-.tag{
-    cursor: pointer;
-    border: none;
-    background-color: #272727;
-    font-size: medium;
-    height: 30px;
-    border-radius: 0.5rem;
-    padding: 5px 10px ;
-}
-
-.tag:hover{   
-    background-color: #3f3f3f;
-}
-
-
-#tag_end{
-    cursor: pointer;
-    border: none;
-    width: 40px;
-    height: 40px;
-    font-size: large;
-    border-radius: 50%;
     background-color: #0f0f0f;
 }
 
-#tag_end:hover{
-    background-color: #3f3f3f;
-    border-radius: 50%;
+.a_tag{
+    border: none;
+    text-decoration: none;
+    background-color: #272727;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 6px 11px ;
+    cursor: pointer;
 }
+
+.a_tag:hover{   
+    background-color: #3f3f3f;
+}
+
+.a_tag:focus{
+    color: black;
+    background-color: #f1f1f1;
+}
+
+
 
 
 /* -----------    tags       ----------------------------------------------------------------------------------------- */
@@ -367,7 +343,107 @@ nav div{
     margin-top: 3px;
     color: #aaaaaa;
 }
+
+
 /* -----------    videos       ----------------------------------------------------------------------------------------- */
+
+
+/* -----------    Shorts       ----------------------------------------------------------------------------------------- */
+
+#contenedor_display_shorts{
+    border-top: #525252 5px solid;
+    border-bottom: #525252 5px solid;
+    display: grid;
+    grid-template-columns: span (6fr);
+    margin: 15px 65px 0px 85px;
+}
+
+#img_logo_shorts{
+    width: 24px;
+    height: 24px;
+}
+
+.img_display_shorts{
+    width: 172px;
+    height: 305px;
+    border-radius: 6%;
+}
+
+#shorts_contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#shorts_logo{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 8px;
+    gap: 10px;
+}
+
+#p_shorts{
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 0px;
+}
+
+
+#contenedor_videos_shorts{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.textos_display_shorts{
+    width: 170px;
+    
+}
+
+.titulo_display_shorts{
+    padding-top: 10px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+
+.visitas_display_shorts{
+    margin-top: 10px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+
+
+
+.columnas_shorts{
+    display: flex;
+}
+
+
+#shorts_showmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+#shorts_showmore:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #525252;
+}
+
+#p_showmore{
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+
+
+/* -----------    Shorts       ----------------------------------------------------------------------------------------- */
 
 
 
@@ -380,6 +456,9 @@ footer{
     border: solid 5px red;
     /* width: 100vw; */
 }
+
+
+
 
 
 
