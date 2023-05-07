@@ -283,8 +283,7 @@ nav div{
 
 
 
-#contenedor_display_videos{
-    background-color: darkblue;
+#videos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 31px 70px 0px 88px;
@@ -292,7 +291,6 @@ nav div{
 
 
 .display_video{
-    /* background-color: red; */
     width: 363px;
     display: flex;
     flex-direction: column;
@@ -342,7 +340,8 @@ nav div{
 
 /* -----------    Shorts       ----------------------------------------------------------------------------------------- */
 
-#contenedor_shorts{
+
+#shorts{
     border-top: #525252 5px solid;
     border-bottom: #525252 5px solid;
     display: flex;
@@ -350,18 +349,17 @@ nav div{
     margin: 15px 65px 0px 85px;
 }
 
-#img_logo_shorts{
+#img_shorts_logo{
     width: 24px;
     height: 24px;
 
 }
 
-.img_display_shorts{
-    width: 172px;
-    height: 305px;
-    border-radius: 6%;
+#p_logo{
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 0px;
 }
-
 
 #shorts_logo{
     display: flex;
@@ -371,19 +369,25 @@ nav div{
     gap: 10px;
 }
 
-#p_shorts{
-    font-weight: bold;
-    font-size: 22px;
-    padding-top: 0px;
-}
-
 #shorts_grid{
-    background-color: red;
     display: grid;
     grid-template-columns: repeat(6,1fr);
 }
 
-.textos_display_shorts{
+.img_display_shorts{
+    width: 172px;
+    height: 305px;
+    border-radius: 6%;
+}
+
+#display_shorts{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.info_display_shorts{
     width: 170px;
     
 }
@@ -396,7 +400,7 @@ nav div{
 
 
 .visitas_display_shorts{
-    margin-top: 10px;
+    margin-top: 5px;
     color: #aaaaaa;
     margin-bottom: 20px;
 }
@@ -431,20 +435,3 @@ nav div{
 
 
 
-/* -----------    Footer       ----------------------------------------------------------------------------------------- */
-
-
-
-footer{
-    background-color: aqua;
-    border: solid 5px red;
-    /* width: 100vw; */
-}
-
-
-
-
-
-
-
-/* -----------    Footer       ----------------------------------------------------------------------------------------- */
